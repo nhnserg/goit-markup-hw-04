@@ -187,7 +187,7 @@ img {
 
 .main {
   background-color: #2E2F42;
-  background-image: linear-gradient(180deg, ), url(../images/main-bg.jpg);
+  background-image: linear-gradient(), url(../images/main-bg.jpg);
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: cover;
@@ -473,3 +473,42 @@ img {
 .advances-item-link {}
 
 .advances-svg {}
+
+
+/** Иконки команди */
+.icon {
+  display: flex;
+}
+.icon-team {
+}
+.icon-team-link {
+}
+.icon-svg {
+}
+/** Кастомерсі */
+.customer {
+  display: flex;
+}
+.customer-item {
+}
+.customer-item-link {
+}
+.customers-svg {
+}
+
+
+/** Иконки Футера */
+.media {
+
+}
+.social-text {
+}
+.social {
+  display: flex;
+}
+.social-item {
+}
+.social-item-link {
+}
+.social-svg {
+}
