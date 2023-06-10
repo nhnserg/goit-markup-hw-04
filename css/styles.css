@@ -607,3 +607,74 @@ img {
     letter-spacing: 0.02em;
     color: var(--contacts-link-color);
 }
+
+/*?===================================*/
+/*!============== MODAL ==============*/
+/*?==================================-*/
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity var(--transition), visibility var(--transition);
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scaleX(1);
+    transition: transform var(--transition);
+    width: 408px;
+    min-height: 584px;
+    background-color: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  
+  .backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scaleX(0);
+  }
+  
+  .modal-btn-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--border-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color var(--transition), border var(--transition);
+  }
+  
+  .close-icon {
+    fill: #2e2f42;
+    transition: fill var(--transition);
+  }
+  
+  .modal-btn-close:hover,
+  .modal-btn-close:focus {
+    background-color: #404bbf;
+    border: none;
+  }
+  
+  .modal-btn-close:hover .close-icon,
+  .modal-btn-close:focus .close-icon {
+    fill: #ffffff;
+  }
+  
+  .is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
