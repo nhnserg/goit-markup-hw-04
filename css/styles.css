@@ -441,11 +441,10 @@ img {
 .container-footer {
     display: flex;
     gap: 120px;
+    
 }
 
 /** SVG4 */
-
-
 
 .social-text {
     font-weight: 500;
@@ -468,9 +467,21 @@ img {
     transition: background-color var(--transition);
 }
 
-.social-item-link {}
+.social-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn-bg-color);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    transition: background-color var(--transition);
+}
 
-.social-svg {}
+.social-item-link:hover,
+.social-item-link:focus {
+    background-color: #31d0aa;
+}
 
 /** SVG4*/
 
