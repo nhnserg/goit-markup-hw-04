@@ -710,6 +710,41 @@ img {
     color: var(--contacts-link-color);
 }
 
+.foot-text {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color_light);
+    margin-bottom: 16px;
+}
+
+.foot-list {
+    display: flex;
+    gap: 16px;
+}
+
+.foot-list-item {
+    width: 40px;
+    height: 40px;
+}
+
+.foot-list-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn-color_primar);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    transition: background-color var(--transition);
+}
+
+.foot-list-item-link:hover,
+.foot-list-item-link:focus {
+    background-color: #31d0aa;
+}
+
+.social-link {}
 
 /*?===================================*/
 /*!============== MODAL ==============*/
