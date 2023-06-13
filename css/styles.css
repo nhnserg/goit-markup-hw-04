@@ -77,7 +77,7 @@ img {
 }
 
 
-/***** MAIN PAGE *****/
+/***** HEADER *****/
 .header {
     border-bottom: 1px solid var(--border-color);
     padding: 0 15px;
@@ -126,7 +126,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
-    transition: color var(--transition);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -183,6 +183,8 @@ img {
     margin-right: 0;
 }
 
+/*******     Section 1      ********/
+
 .main {
     padding: 188px 0;
     background-image: linear-gradient(to bottom,
@@ -237,6 +239,8 @@ img {
 .main-btn:focus {
     background: var(--link-color);
 }
+
+/*******     Section 2      ********/
 
 .option {
     padding-top: 120px;
@@ -318,6 +322,7 @@ img {
     color: var(--contacts-link-color);
 }
 
+/*******     Section 3      ********/
 .value {
     padding-bottom: 120px;
 }
@@ -342,6 +347,7 @@ img {
     width: calc((100% - 48px) / 3);
 }
 
+/*******     Section 4      ********/
 .team {
     background: var(--scnd-text-color);
     padding: 120px 0;
@@ -416,6 +422,7 @@ img {
     width: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-team-link:hover,
@@ -440,6 +447,7 @@ img {
     color: #2e2f42;
 }
 
+/*******     Section 5      ********/
 .customer {
     display: flex;
     gap: 24px;
@@ -461,7 +469,7 @@ img {
     color: var(--text-color);
     border: 1px solid #8e8f99;
     border-radius: 4px;
-    transition: border var(--transition), color var(--transition);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-item-link:hover,
@@ -475,8 +483,7 @@ img {
     fill: currentColor;
 }
 
-/** SVG3 **/
-
+/*******     footer      ********/
 .back {
     background: var(--main-text-color);
     padding: 100px 0;
