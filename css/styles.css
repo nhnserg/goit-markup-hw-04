@@ -670,7 +670,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color_light);
+    color: var(--scnd-text-color);
     padding: 40px 32px;
     position: absolute;
     top: 0;
@@ -708,6 +708,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--contacts-link-color);
+}
+
+.foot-container {
+    display: flex;
+    align-items: baseline;
 }
 
 .foot-text {
