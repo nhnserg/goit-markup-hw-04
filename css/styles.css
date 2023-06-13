@@ -119,16 +119,23 @@ img {
 }
 
 .header-menu-link {
+    position: relative;
+    text-decoration: none;
+    color: var(--main-text-color);
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
     padding: 24px 0;
+    transition: color var(--transition);
+
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
+    color: var(--link-color);
+}
+
+.active {
     color: var(--link-color);
 }
 
@@ -223,7 +230,7 @@ img {
     background-color: var(--btn-bg-color);
     border-radius: 4px;
     cursor: pointer;
-     transition: background-color var(--transition)
+    transition: background-color var(--transition)
 }
 
 .main-btn:hover,
@@ -245,8 +252,9 @@ img {
     border-radius: 4px;
     margin-bottom: 8px;
 }
+
 /** SVG **/
-.advances { 
+.advances {
     display: flex;
     gap: 24px;
 }
