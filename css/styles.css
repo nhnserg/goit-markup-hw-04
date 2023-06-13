@@ -686,13 +686,8 @@ img {
 
 }
 
-.portfolio-item-link:hover,
-.portfolio-item-link:focus {
-    transform: translateY(0);
-}
-
-.prtfl-img-text:hover,
-.prtfl-img-text:focus {
+.portfolio-item-link:hover .prtfl-img-text,
+.portfolio-item-link:focus .prtfl-img-text {
     transform: translateY(0);
 }
 
