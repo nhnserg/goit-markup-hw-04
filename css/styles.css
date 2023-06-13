@@ -753,7 +753,9 @@ img {
     background-color: #31d0aa;
 }
 
-.social-link {}
+.social-link {
+    fill:#f4f4fd;
+}
 
 /*?===================================*/
 /*!============== MODAL ==============*/
