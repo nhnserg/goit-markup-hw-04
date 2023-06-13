@@ -235,8 +235,17 @@ img {
     padding-bottom: 120px;
 }
 
+.option-menu-item-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 /** SVG **/
-.advances {
+.advances { 
     display: flex;
     gap: 24px;
 }
