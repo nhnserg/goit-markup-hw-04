@@ -495,25 +495,27 @@ img {
     margin-bottom: 16px;
 }
 
-.back-logo-text-footer {
+.logo-text-footer {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: var(--btn-bg-color);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+    
+}
+
+.logo-footer {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    color: var(--btn-bg-color);
+    color: var(--scnd-text-color);
     line-height: 1.17;
     letter-spacing: 0.03em;
-}
-
-.back-logo-footer {
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    color: var(--bg-color-main);
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    margin-bottom: 16px;
 }
 .back-logo-text {
     text-transform: uppercase;
